@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\bin\Debug\Ejercicio-Menu.exe.config
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\bin\Debug\Ejercicio-Menu.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\bin\Debug\Ejercicio-Menu.pdb
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\obj\Debug\Ejercicio-Menu.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\obj\Debug\Ejercicio-Menu.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\obj\Debug\Ejercicio-Menu.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio-Menu\obj\Debug\Ejercicio-Menu.pdb

@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\menu\bin\Debug\menu.exe.config
+C:\Users\Gaby Plata\source\repos\menu\bin\Debug\menu.exe
+C:\Users\Gaby Plata\source\repos\menu\bin\Debug\menu.pdb
+C:\Users\Gaby Plata\source\repos\menu\obj\Debug\menu.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\menu\obj\Debug\menu.exe
+C:\Users\Gaby Plata\source\repos\menu\obj\Debug\menu.pdb
