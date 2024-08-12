@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
