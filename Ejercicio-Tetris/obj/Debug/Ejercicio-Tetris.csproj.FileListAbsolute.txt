@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\bin\Debug\Ejercicio-Tetris.exe.config
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\bin\Debug\Ejercicio-Tetris.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\bin\Debug\Ejercicio-Tetris.pdb
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\obj\Debug\Ejercicio-Tetris.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\obj\Debug\Ejercicio-Tetris.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\obj\Debug\Ejercicio-Tetris.exe
+C:\Users\Gaby Plata\source\repos\Ejercicio-Tetris\obj\Debug\Ejercicio-Tetris.pdb
