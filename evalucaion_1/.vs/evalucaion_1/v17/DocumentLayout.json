@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|solutionrelative:evalucaion_1\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|solutionrelative:evalucaion_1\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|c:\\users\\gaby plata\\source\\repos\\evalucaion_1\\evalucaion_1\\televisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|solutionrelative:evalucaion_1\\televisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\productoelectronico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|solutionrelative:evalucaion_1\\productoelectronico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748591FD-C671-4F5D-B054-BB46D7978393}|evalucaion_1\\evalucaion_1.csproj|solutionrelative:evalucaion_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Televisor.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Televisor.cs",
+              "RelativeDocumentMoniker": "evalucaion_1\\Televisor.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Televisor.cs*",
+              "RelativeToolTip": "evalucaion_1\\Televisor.cs*",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:55:00.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Laptop.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Laptop.cs",
+              "RelativeDocumentMoniker": "evalucaion_1\\Laptop.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Laptop.cs*",
+              "RelativeToolTip": "evalucaion_1\\Laptop.cs*",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:49:40.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Telefono.cs",
+              "RelativeDocumentMoniker": "evalucaion_1\\Telefono.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Telefono.cs*",
+              "RelativeToolTip": "evalucaion_1\\Telefono.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:47:10.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoElectronico.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\ProductoElectronico.cs",
+              "RelativeDocumentMoniker": "evalucaion_1\\ProductoElectronico.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\ProductoElectronico.cs",
+              "RelativeToolTip": "evalucaion_1\\ProductoElectronico.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:48:18.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Program.cs",
+              "RelativeDocumentMoniker": "evalucaion_1\\Program.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\evalucaion_1\\evalucaion_1\\Program.cs",
+              "RelativeToolTip": "evalucaion_1\\Program.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAqwIgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:34:46.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
