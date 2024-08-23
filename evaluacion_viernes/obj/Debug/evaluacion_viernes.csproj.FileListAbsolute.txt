@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\bin\Debug\evaluacion_viernes.exe.config
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\bin\Debug\evaluacion_viernes.exe
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\bin\Debug\evaluacion_viernes.pdb
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\obj\Debug\evaluacion_viernes.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\obj\Debug\evaluacion_viernes.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\obj\Debug\evaluacion_viernes.exe
+C:\Users\Gaby Plata\source\repos\evaluacion_viernes\obj\Debug\evaluacion_viernes.pdb
