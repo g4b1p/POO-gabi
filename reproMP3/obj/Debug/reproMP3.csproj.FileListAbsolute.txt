@@ -1,0 +1,10 @@
+C:\Users\Gaby Plata\source\repos\reproMP3\bin\Debug\reproMP3.exe.config
+C:\Users\Gaby Plata\source\repos\reproMP3\bin\Debug\reproMP3.exe
+C:\Users\Gaby Plata\source\repos\reproMP3\bin\Debug\reproMP3.pdb
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.Form1.resources
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.Properties.Resources.resources
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.csproj.GenerateResource.cache
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.exe
+C:\Users\Gaby Plata\source\repos\reproMP3\obj\Debug\reproMP3.pdb
