@@ -1,0 +1,10 @@
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\bin\Debug\reprodMP3.exe.config
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\bin\Debug\reprodMP3.exe
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\bin\Debug\reprodMP3.pdb
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.csproj.AssemblyReference.cache
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.Form1.resources
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.Properties.Resources.resources
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.csproj.GenerateResource.cache
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.csproj.CoreCompileInputs.cache
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.exe
+C:\Users\A-01\source\repos\reprodMP3\reprodMP3\obj\Debug\reprodMP3.pdb
