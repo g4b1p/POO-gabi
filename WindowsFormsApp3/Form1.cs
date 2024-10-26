@@ -34,10 +34,8 @@ namespace WindowsFormsApp3
 
         private void imprimirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //PrintDialog.showDialog();
             openFileDialog1.FileName = "";
             openFileDialog1.Filter = "Acrobat PDFs|*.pdf|Documentos Word|*.docx;*.doc"; // * -> para completar lo q sigue / |-> para filtro
-            //openFileDialog1.ShowDialog();
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 MessageBox.Show(openFileDialog1.FileName);

@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_1\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5757AC8F-370B-4110-B3C2-975375CE767B}|ejercicio-obligatorio_1.csproj|c:\\xampp\\htdocs\\poo-gabi\\ejercicio-obligatorio_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5757AC8F-370B-4110-B3C2-975375CE767B}|ejercicio-obligatorio_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67A57F8B-2AFD-4BDC-AF9B-C8822218B81B}|ejercicio-obligatorio_2.csproj|c:\\xampp\\htdocs\\poo-gabi\\ejercicio-obligatorio_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A57F8B-2AFD-4BDC-AF9B-C8822218B81B}|ejercicio-obligatorio_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,13 +44,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_1\\Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwvzgAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\xampp\\htdocs\\POO-gabi\\ejercicio-obligatorio_2\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswKMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:13:06.072Z",
+              "WhenOpened": "2024-08-16T00:56:05.469Z",
               "EditorCaption": ""
             }
           ]

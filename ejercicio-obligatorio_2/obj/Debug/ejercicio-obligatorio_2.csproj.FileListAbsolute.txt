@@ -1,0 +1,7 @@
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\bin\Debug\ejercicio-obligatorio_2.exe.config
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\bin\Debug\ejercicio-obligatorio_2.exe
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\bin\Debug\ejercicio-obligatorio_2.pdb
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\obj\Debug\ejercicio-obligatorio_2.csproj.AssemblyReference.cache
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\obj\Debug\ejercicio-obligatorio_2.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\obj\Debug\ejercicio-obligatorio_2.exe
+C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_2\obj\Debug\ejercicio-obligatorio_2.pdb
