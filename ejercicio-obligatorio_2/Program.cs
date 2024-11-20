@@ -29,7 +29,7 @@ namespace ejercicio_obligatorio_2
 
         public persona()
         {
-            this.nombre = "";
+            this.nombre = " ";
             this.edad = 0;
             this.sexo = Sexo;
             this.peso = 0;
