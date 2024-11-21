@@ -1,0 +1,7 @@
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\bin\Debug\ejercicio-obligatorio_4.exe.config
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\bin\Debug\ejercicio-obligatorio_4.exe
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\bin\Debug\ejercicio-obligatorio_4.pdb
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\obj\Debug\ejercicio-obligatorio_4.csproj.AssemblyReference.cache
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\obj\Debug\ejercicio-obligatorio_4.csproj.CoreCompileInputs.cache
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\obj\Debug\ejercicio-obligatorio_4.exe
+C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_4\obj\Debug\ejercicio-obligatorio_4.pdb
