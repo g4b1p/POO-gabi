@@ -5,10 +5,3 @@ C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_1\obj\Debug\ejercicio-obl
 C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.csproj.CoreCompileInputs.cache
 C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.exe
 C:\Users\Gaby Plata\source\repos\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.pdb
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\bin\Debug\ejercicio-obligatorio_1.exe.config
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\bin\Debug\ejercicio-obligatorio_1.exe
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\bin\Debug\ejercicio-obligatorio_1.pdb
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.csproj.AssemblyReference.cache
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.csproj.CoreCompileInputs.cache
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.exe
-C:\xampp\htdocs\POO-gabi\ejercicio-obligatorio_1\obj\Debug\ejercicio-obligatorio_1.pdb
