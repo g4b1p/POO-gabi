@@ -23,7 +23,7 @@ namespace ejercicio_obligatorio_4
             carga = _carga;
         }
 
-        public Lavadora(double precioBase, string color, char consumoEnergetico, double peso, int carga) : base(precioBase, color, consumoEnergetico, peso)
+        public Lavadora(double precioBase, colores color, letrasConsumo consumoEnergetico, double peso, int carga) : base(precioBase, color, consumoEnergetico, peso)
         {
             this.carga = carga;
         }
@@ -33,16 +33,16 @@ namespace ejercicio_obligatorio_4
             return carga;
         }
 
-        public override double precioFinal() //explicar
+        public override double precioFinal()
         {
-            double precioBase = base.precioFinal();
+            double nuevoPrecio = base.precioFinal();
 
             if (carga > 30)
             {
-                precioBase += 50;
+                nuevoPrecio += 50;
             }
 
-            return precioBase;
+            return nuevoPrecio;
         }
 
     }

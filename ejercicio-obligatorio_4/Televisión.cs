@@ -11,22 +11,25 @@ namespace ejercicio_obligatorio_4
         private int resolucion;
         private bool sintonizadorTDT;
 
+        private int _resolucion = 20;
+        private bool _sintonizadorTDT = false;
+
         public Televisión() : base()
         {
-            this.resolucion = 20;
-            this.sintonizadorTDT = false;
+            resolucion = _resolucion;
+            sintonizadorTDT = _sintonizadorTDT;
         }
 
         public Televisión(double precioBase, double peso) : base(precioBase, peso)
         {
-            this.resolucion = 20;
-            this.sintonizadorTDT = false;
+            resolucion = _resolucion;
+            sintonizadorTDT = _sintonizadorTDT;
         }
 
-        public Televisión(double precioBase, string color, char consumoEnergetico, double peso, int resolucion, bool sintonizadorTDT) : base(precioBase, color, consumoEnergetico, peso)
+        public Televisión(double precioBase, colores color, letrasConsumo consumoEnergetico, double peso, int resolucion, bool sintonizadorTDT) : base(precioBase, color, consumoEnergetico, peso)
         {
-            this.resolucion = resolucion;
-            this.sintonizadorTDT = sintonizadorTDT;
+            this.resolucion = _resolucion;
+            this.sintonizadorTDT = _sintonizadorTDT;
         }
 
         public int gResolucion()
@@ -41,18 +44,19 @@ namespace ejercicio_obligatorio_4
 
         public override double precioFinal()
         {
-            double precio = base.precioFinal();
+            double nuevoPrecio = base.precioFinal();
 
             if (resolucion > 40)
             {
-                precio *= 1.30;
+                //nuevoPrecio = nuevoPrecio * (1 + 30 / 100);
+                nuevoPrecio = nuevoPrecio * 1.30;
             }
 
-            if (sintonizadorTDT)
+            if (sintonizadorTDT == true)
             {
-                precio += 50;
+                nuevoPrecio += 50;
             }
-            return precio;
+            return nuevoPrecio;
         }
     }
 }

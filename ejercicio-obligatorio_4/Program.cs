@@ -12,16 +12,18 @@ namespace ejercicio_obligatorio_4
         {
             Electrodoméstico[] electrodomesticos = new Electrodoméstico[10];
 
-            electrodomesticos[0] = new Electrodoméstico(150, "rojo", 'A', 25);
-            electrodomesticos[1] = new Lavadora(200, "blanco", 'B', 40, 35);
-            electrodomesticos[2] = new Televisión(300, "negro", 'C', 30, 50, true);
-            electrodomesticos[3] = new Electrodoméstico();
-            electrodomesticos[4] = new Lavadora(180, 45);
-            electrodomesticos[5] = new Televisión(400, 55);
-            electrodomesticos[6] = new Electrodoméstico(100, "gris", 'E', 10);
-            electrodomesticos[7] = new Lavadora(250, "azul", 'A', 60, 28);
-            electrodomesticos[8] = new Televisión(350, "rojo", 'B', 45, 42, false);
-            electrodomesticos[9] = new Electrodoméstico(120, "negro", 'D', 15);
+            electrodomesticos[0] = new Electrodoméstico(300, Electrodoméstico.colores.rojo, Electrodoméstico.letrasConsumo.C, 30);
+            electrodomesticos[1] = new Electrodoméstico(800, Electrodoméstico.colores.negro, Electrodoméstico.letrasConsumo.D, 150);
+            electrodomesticos[2] = new Electrodoméstico(900, Electrodoméstico.colores.azul, Electrodoméstico.letrasConsumo.F, 90);
+            electrodomesticos[3] = new Electrodoméstico(100, Electrodoméstico.colores.gris, Electrodoméstico.letrasConsumo.A, 15);
+
+            electrodomesticos[4] = new Lavadora(200, Electrodoméstico.colores.negro, Electrodoméstico.letrasConsumo.D, 70, 20);
+            electrodomesticos[5] = new Lavadora(700, Electrodoméstico.colores.rojo, Electrodoméstico.letrasConsumo.A, 60, 30);
+            electrodomesticos[6] = new Lavadora(500, Electrodoméstico.colores.azul, Electrodoméstico.letrasConsumo.C, 80, 50);
+
+            electrodomesticos[7] = new Televisión(400, Electrodoméstico.colores.gris, Electrodoméstico.letrasConsumo.E, 50, 10, true);
+            electrodomesticos[8] = new Televisión(600, Electrodoméstico.colores.azul, Electrodoméstico.letrasConsumo.F, 10, 70, true);
+            electrodomesticos[9] = new Televisión(1000, Electrodoméstico.colores.gris, Electrodoméstico.letrasConsumo.C, 90, 40, false);
 
             double totalElectrodomesticos = 0;
             double totalLavadoras = 0;
@@ -29,24 +31,28 @@ namespace ejercicio_obligatorio_4
 
             foreach (Electrodoméstico e in electrodomesticos)
             {
-                //double precio.precioFinal();
-                double precio = e.precioFinal();
+                double nuevoPrecio = e.precioFinal();
 
-                totalElectrodomesticos += precio;
+                totalElectrodomesticos += nuevoPrecio;
 
                 if (e is Lavadora)
                 {
-                    totalLavadoras += precio;
+                    totalLavadoras += nuevoPrecio;
                 }
                 else if (e is Televisión)
                 {
-                    totalTelevisores += precio;
+                    totalTelevisores += nuevoPrecio;
                 }
             }
 
             Console.WriteLine("total electrodomesticos: " + totalElectrodomesticos);
             Console.WriteLine("total lavadoras: " + totalLavadoras);
             Console.WriteLine("total televisores: " + totalTelevisores);
+
+            totalElectrodomesticos += totalLavadoras + totalTelevisores;
+
+            Console.WriteLine();
+            Console.WriteLine("total electrodomesticos más lavadoras y televisores: " + totalElectrodomesticos);
 
             Console.ReadKey();
         }

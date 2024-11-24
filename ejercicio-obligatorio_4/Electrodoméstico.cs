@@ -54,7 +54,7 @@ namespace ejercicio_obligatorio_4
             consumoEnergetico = _consumoEnergetico;
         }
 
-        public Electrodoméstico(double precio, string color, char consumo, double peso)
+        public Electrodoméstico(double precio, colores color, letrasConsumo consumo, double peso)
         {
             this.precioBase = precio;
 
