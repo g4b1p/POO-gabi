@@ -30,46 +30,60 @@ namespace ejercicio_obligatorio_3
             generarPassword();
         }
 
-        /*public bool esFuerte() //?
+        public bool esFuerte()
         {
-            int mayus = 0;
-            int minus = 0;
-            int nums = 0;
+            int cantMayus = 0;
+            int cantMinus = 0;
+            int cantNums = 0;
 
-            foreach (char c in contraseña)
+            for (int i = 0; i < contraseña.Length; i++)
             {
-                if (c >= 'A' && c <= 'Z')
+                if ((contraseña[i] >= 'a' && contraseña[i] <= 'z') || contraseña[i] == 'ñ')
                 {
-                    mayus++;
+                    cantMinus++;
                 }
-                else if (c >= 'a' && c <= 'z')
+                else if ((contraseña[i] >= 'A' && contraseña[i] <= 'Z') || contraseña[i] == 'Ñ')
                 {
-                    minus++;
+                    cantMayus++;
                 }
-                else if (c >= '0' && c <= '9')
+                else if (contraseña[i] >= '0' && contraseña[i] <= '9')
                 {
-                    nums++;
+                    cantNums++;
                 }
             }
 
-            if (mayus > 2 && minus > 1 && nums > 5)
+            Console.WriteLine("mayus:" + cantMayus + ", minus:" + cantMinus + ", nums:" + cantNums);
+
+            if (cantMayus > 2 && cantMinus > 1 && cantNums > 5)
             {
+                Console.WriteLine("es fuerte");
                 return true;
             }
             else
             {
+                Console.WriteLine("no es fuerte");
                 return false;
-            }
-        }*/
+            }                        
+        }
 
         private void generarPassword()
         {
-            string caracteres = "abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789";
-            string contraseña = "";
+            //string caracteres = "abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789";
 
-            for (int i = 0; i < longitud; i++)
+            string minus = "abcdefghijklmñnopqrstuvwxyz";
+            string mayus = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+            string nums = "0123456789";
+
+            contraseña = "";
+
+            contraseña += minus[random.Next(minus.Length)];
+            contraseña += mayus[random.Next(mayus.Length)];
+            contraseña += nums[random.Next(nums.Length)];
+
+            string caracteres = minus + mayus + nums;
+
+            for (int i = 3; i < longitud; i++)
             {
-                //contraseña = caracteres[random.Next(caracteres[i])].ToString();
                 contraseña += caracteres[random.Next(caracteres.Length)];
             }
             Console.WriteLine(contraseña);
@@ -96,30 +110,27 @@ namespace ejercicio_obligatorio_3
     {
         static void Main(string[] args)
         {
-
-            // ARREGLARRRR
-
             Console.WriteLine("cuantas contraseñas generara: ");
             int cantidad = int.Parse(Console.ReadLine());
 
             Console.WriteLine("longitud de las contraseñas: ");
             int longitud = int.Parse(Console.ReadLine());
 
-            //password p  = new password();
+            password p  = new password();
 
-            //p.sLongitud(cantidad);
+            //p.sLongitud(longitud);
             //p.gContraseña();
+            //p.esFuerte();
 
-            password[] passwords = new password[cantidad]; 
-            //bool[] fuerte = new bool[cantidad];
-
+            password[] passwords = new password[cantidad];
+            bool[] fuerte = new bool[cantidad];
+            
             for (int i = 0; i < cantidad; i++)
             {
                 passwords[i] = new password(longitud);
-                //fuerte[i] = passwords[i].esFuerte();
-
-                Console.WriteLine(passwords[i].gContraseña());
-                //Console.WriteLine(fuerte[i]);
+                passwords[i].gContraseña();
+                fuerte[i] = passwords[i].esFuerte();
+                Console.WriteLine();
             }
 
             Console.ReadKey();
