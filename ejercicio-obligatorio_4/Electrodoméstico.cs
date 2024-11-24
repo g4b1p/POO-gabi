@@ -8,10 +8,10 @@ namespace ejercicio_obligatorio_4
 {
     internal class Electrodoméstico
     {
-        protected double precioBase {  get; set; }
-        protected colores color { get; set; }
-        protected letrasConsumo consumoEnergetico { get; set; }
-        protected double peso { get; set; }
+        protected double precioBase;
+        protected colores color;
+        protected letrasConsumo consumoEnergetico;
+        protected double peso;
 
         public enum colores
         {
