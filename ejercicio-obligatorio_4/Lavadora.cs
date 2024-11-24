@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,14 +11,16 @@ namespace ejercicio_obligatorio_4
     {
         private int carga;
 
+        private int _carga = 5;
+
         public Lavadora() : base()
         {
-            carga = 5;
+            carga = _carga;
         }
 
         public Lavadora(double precioBase, double peso) : base(precioBase, peso)
         {
-            carga = 5;
+            carga = _carga;
         }
 
         public Lavadora(double precioBase, string color, char consumoEnergetico, double peso, int carga) : base(precioBase, color, consumoEnergetico, peso)
@@ -30,7 +33,7 @@ namespace ejercicio_obligatorio_4
             return carga;
         }
 
-        public override double precioFinal()
+        public override double precioFinal() //explicar
         {
             double precioBase = base.precioFinal();
 
