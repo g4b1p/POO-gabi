@@ -10,13 +10,18 @@ namespace ejercicio_obligatorio_3
     class password
     {
         private int longitud;
-
         private string contraseña;
+
+        // vars por defecto
+        private int _longitud = 8;
+        private string _contraseña = " ";
+
+        private static Random random = new Random();
 
         public password()
         {
-            longitud = 8;
-            //generarPassword();
+            longitud = _longitud;
+            contraseña = _contraseña;
         }
 
         public password(int longitud)
@@ -25,20 +30,7 @@ namespace ejercicio_obligatorio_3
             generarPassword();
         }
 
-        private void generarPassword()
-        {
-            Random random = new Random();
-            string caracteres = "abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789";
-            contraseña = "";
-
-            for (int i = 0; i < longitud; i++)
-            {
-                //contraseña = caracteres[random.Next(caracteres)];
-                contraseña += caracteres[random.Next(caracteres.Length)];
-            }
-        }
-
-        public bool esFuerte()
+        /*public bool esFuerte() //?
         {
             int mayus = 0;
             int minus = 0;
@@ -68,6 +60,19 @@ namespace ejercicio_obligatorio_3
             {
                 return false;
             }
+        }*/
+
+        private void generarPassword()
+        {
+            string caracteres = "abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789";
+            string contraseña = "";
+
+            for (int i = 0; i < longitud; i++)
+            {
+                //contraseña = caracteres[random.Next(caracteres[i])].ToString();
+                contraseña += caracteres[random.Next(caracteres.Length)];
+            }
+            Console.WriteLine(contraseña);
         }
 
         public string gContraseña()
@@ -91,25 +96,30 @@ namespace ejercicio_obligatorio_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("cantidad de contraseñas a generar: ");
+
+            // ARREGLARRRR
+
+            Console.WriteLine("cuantas contraseñas generara: ");
             int cantidad = int.Parse(Console.ReadLine());
 
             Console.WriteLine("longitud de las contraseñas: ");
             int longitud = int.Parse(Console.ReadLine());
 
-            password[] passwords = new password[cantidad];
-            bool[] fuerte = new bool[cantidad];
+            //password p  = new password();
+
+            //p.sLongitud(cantidad);
+            //p.gContraseña();
+
+            password[] passwords = new password[cantidad]; 
+            //bool[] fuerte = new bool[cantidad];
 
             for (int i = 0; i < cantidad; i++)
             {
                 passwords[i] = new password(longitud);
-                fuerte[i] = passwords[i].esFuerte();
-            }
+                //fuerte[i] = passwords[i].esFuerte();
 
-            for (int i = 0; i < cantidad; i++)
-            {
                 Console.WriteLine(passwords[i].gContraseña());
-                Console.WriteLine(fuerte[i]);
+                //Console.WriteLine(fuerte[i]);
             }
 
             Console.ReadKey();
