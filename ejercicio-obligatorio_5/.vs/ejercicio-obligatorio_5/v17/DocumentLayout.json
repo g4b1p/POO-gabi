@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|c:\\users\\gaby plata\\source\\repos\\ejercicio-obligatorio_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|c:\\users\\gaby plata\\source\\repos\\ejercicio-obligatorio_5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|solutionrelative:ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|solutionrelative:videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|c:\\users\\gaby plata\\source\\repos\\ejercicio-obligatorio_5\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|solutionrelative:serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|c:\\users\\gaby plata\\source\\repos\\ejercicio-obligatorio_5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7331ED6-967D-48BD-A54E-1EE27E485DE7}|ejercicio-obligatorio_5.csproj|solutionrelative:ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,40 +55,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IEntregable.cs",
-              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\IEntregable.cs",
-              "RelativeDocumentMoniker": "IEntregable.cs",
-              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\IEntregable.cs",
-              "RelativeToolTip": "IEntregable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:30:01.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Serie.cs",
               "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\Serie.cs",
               "RelativeDocumentMoniker": "Serie.cs",
               "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\Serie.cs",
               "RelativeToolTip": "Serie.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAA6wHAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:15:20.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Videojuego.cs",
               "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\Videojuego.cs",
               "RelativeDocumentMoniker": "Videojuego.cs",
               "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\Videojuego.cs",
               "RelativeToolTip": "Videojuego.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwHwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:16:17.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEntregable.cs",
+              "DocumentMoniker": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\IEntregable.cs",
+              "RelativeDocumentMoniker": "IEntregable.cs",
+              "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\IEntregable.cs",
+              "RelativeToolTip": "IEntregable.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:30:01.694Z",
               "EditorCaption": ""
             },
             {
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Gaby Plata\\source\\repos\\ejercicio-obligatorio_5\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T16:39:46.713Z",
               "EditorCaption": ""

@@ -8,10 +8,9 @@ namespace ejercicio_obligatorio_5
 {
     internal interface IEntregable
     {
-        public bool entregar();
-        public bool devolver();
-        public bool isEntregado();
-        public Object compareTo(Object a);
-
+        void entregar();
+        void devolver();
+        bool isEntregado();
+        int compareTo(object a);
     }
 }

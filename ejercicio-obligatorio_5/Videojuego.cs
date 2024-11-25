@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ejercicio_obligatorio_5
 {
-    internal class Videojuego
+    internal class Videojuego : IEntregable
     {
         private string titulo;
         private int horasEstimadas;
@@ -94,5 +94,50 @@ namespace ejercicio_obligatorio_5
         }
 
         #endregion
+
+        public void entregar()
+        {
+            this.entregado = true;
+        }
+
+        public void devolver()
+        {
+            this.entregado = false;
+        }
+
+        public bool isEntregado()
+        {
+            return entregado;
+        }
+
+        public int compareTo(object a)
+        {
+            /*
+            if (a.Equals(this))
+            if (a.GetType() == this.GetType())
+            */
+
+            if (a is Videojuego vj)
+            {
+
+                if (this.horasEstimadas < vj.gHorasEstimadas())
+                {
+                    return -1;
+                }
+                else if (this.horasEstimadas == vj.gHorasEstimadas())
+                {
+                    return 0;
+                }
+                else
+                {
+                    return 1;
+                }
+            }
+            else
+            {
+                //Console.WriteLine("el objeto no es de tipo videojuego");
+                throw new ArgumentException("el objeto no es de tipo videojuego");
+            }
+        }
     }
 }

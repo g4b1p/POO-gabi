@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ejercicio_obligatorio_5
 {
-    internal class Serie
+    internal class Serie : IEntregable
     {
         private string titulo;
         private int numTemporadas;
@@ -94,5 +94,44 @@ namespace ejercicio_obligatorio_5
         }
 
         #endregion
+
+        public void entregar()
+        {
+            this.entregado = true;
+        }
+
+        public void devolver()
+        {
+            this.entregado = false;
+        }
+
+        public bool isEntregado()
+        {
+            return entregado;
+        }
+
+        public int compareTo(object a)
+        {
+            if (a is Serie serie)
+            {
+
+                if (this.numTemporadas < serie.gNumTemporadas())
+                {
+                    return -1;
+                }
+                else if (this.numTemporadas == serie.gNumTemporadas())
+                {
+                    return 0;
+                }
+                else
+                {
+                    return 1;
+                }
+            }
+            else
+            {
+                throw new ArgumentException("el objeto no es de tipo serie");
+            }
+        }
     }
 }
